@@ -1,10 +1,21 @@
-# typing-test
+# ⌨️ Typing Test
 
-This was the very first project I ever built. At the age of 15, I created this simple Windows app that lets users take a typing test and then shows detailed statistics at the end.
+This was the **very first project** I ever built. At the age of 15, I created a simple Windows app that allows users to take a typing test and then displays detailed statistics at the end.
 
-I learnt C as my first programming language and used the `graphics.h` library for all the graphical elements in the app. `graphics.h` is a DOS-based library, quite different from the modern GUI libraries like GTK or Qt, which are popular today. It allows basic rendering of text and simple shapes like circles, lines, and rectangles. Using just these primitives, I designed the entire UI from scratch — essentially rendering every visible pixel on the screen manually through code.
+## 💻 About the Project
 
-Most of the technology used is now deprecated, so the code is quite difficult to compile again. However, the original executable still works!
+* Written in **C**, my first programming language.
+* Uses the classic `graphics.h` library for rendering UI elements.
+* `graphics.h` is a DOS-based graphics library, quite different from modern GUI frameworks like **GTK** or **Qt**.
+* Using only basic primitives such as **lines**, **circles**, **rectangles**, and **text**, I manually constructed the entire UI.
+* The UI was designed entirely from scratch — no UI builders or frameworks were used, just raw code.
 
-Feel free to download it and give it a try.
-Thanks!
+## ⚠️ Compatibility Note
+
+Most of the technology used (especially `graphics.h`) is now deprecated, and compiling the code on modern systems is difficult without legacy tools or DOS emulators.
+However, the **original executable still runs on modern Windows**, although some antivirus software may flag it as suspicious due to its vintage nature.
+
+## 🚀 Try It Out
+
+Feel free to download the executable and give it a try!
+Thanks for checking it out!
